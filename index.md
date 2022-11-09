@@ -35,20 +35,81 @@ To minimize risk of inappropriate encounters by requiring all meetings to occur 
 To encourage face-to-face interaction among ICS students.
 There are other mechanisms (Slack, Piazza) for asynchronous, online help and support. Study Buddy is designed to facilitate live, real-world help using ICSpace.
 
-Note: if you choose this idea for your final project, you cannot name it “Study Buddy”. Come up with a different name for your final project.
-
 ## Mockup page ideas
 
 Some possible mockup pages include:
 
-Landing page
-User home page
-Admin home page
-User profile page
-Calendar page
-Create Study Sesh page
-Study session page
-Game mechanic page(s) (for example, a leaderboard?)
+### Landing page
+
+The landing page is what users see when they first visit the site. 
+
+<img src="images/landing.png" alt="Landing Page">
+
+### Register page
+
+The register page allows new users to sign up for Study Partner. 
+
+<img src="images/register.png" alt="Register Page">
+
+### Login page
+
+The login page is used by returning users to log into their accounts. 
+
+<img src="images/login.png" alt="Login Page">
+
+### User home page
+
+Users are sent to this page after logging in. It has options for scheduling a future study session or starting a session immediately. It also has options for profile editing, viewing the event calendar, viewing the leaderboard, and sending a message to the admins. 
+
+<img src="images/landing-user.png" alt="User Home Page">
+
+### Admin home page
+
+Admins are sent to this page after logging in. It has the same options as the user home page with the exception of the "contact admin" option, which is replaced by the "view report" option. This option allows admins to view messages sent from users. 
+
+<img src="images/landing-admin.png" alt="Admin Home Page">
+
+### User profile page
+
+New users are sent to this page to set up their profile. This page is also excessible to returning users from the home page. 
+
+<img src="images/profile.png" alt="User Profile Page">
+
+### Calendar page
+
+The calendar page shows all currently scheduled study sessions. 
+
+<img src="images/calendar.png" alt="Calendar Page">
+
+### Create Study Session page
+
+This page allows users to create a study session for a future time. That study session will then be added to the calendar page. 
+
+<img src="images/create-session.png" alt="Create Study Session Page">
+
+### Create Quick Study Session page
+
+This page allows users to set up an event immediately. It will notify all members of the course. 
+
+<img src="images/create-session-rn.png" alt="Create Study Session Right Now Page">
+
+### Join Study session page
+
+Clicking on one of the calendar events will bring users to this page. Users are able to sign up for existing study sessions from this page. Users will also be able to see who is currently planning to attend a session. 
+
+<img src="images/join-session.png" alt="Join Study Session Page">
+
+### Leaderboard page
+
+The leaderboard page allows users to see which users have accumulated the most points. 
+
+<img src="images/leaderboard.png" alt="Leaderboard Page">
+
+### Contact admin page
+
+This page allows users to contact an admin if they feel others are engaging in inappropriate behavior. 
+
+<img src="images/contact-admin.png" alt="Contact Admin Page">
 
 ## Use case ideas
 
