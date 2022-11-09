@@ -65,7 +65,7 @@ Users are sent to this page after logging in. It has options for scheduling a fu
 
 ### Admin home page
 
-Admins are sent to this page after logging in. It has the same options as the user home page with the exception of the "contact admin" option, which is replaced by the "view report" option. This option allows admins to view messages sent from users. 
+Admins are sent to this page after logging in. It has the same options as the user home page with the exception of the "contact admin" option, which is replaced by the "view reports" option. This option allows admins to view messages sent from users. 
 
 <img src="images/landing-admin.png" alt="Admin Home Page">
 
