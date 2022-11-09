@@ -14,26 +14,21 @@ Another section of the site lists all of the ICS courses. Within each course, it
 
 There is an online calendar that shows all of the study sessions and who is attending.
 
-There are two styles of use for Study Buddy:
+There are two styles of use for Study Partner:
 
 You want to plan a group study session for later in the day or some subsequent day. In that case, you schedule the time period for sometime in the future.
 
-You are having a problem right now. In that case, you can go into Study Buddy and schedule the session for “Right Now!”. This indicates you are right now in ICSpace and need help. All the other sensei and grasshoppers for that course will be notified, and hopefully a group will spontaneously form in a few minutes.
+You are having a problem right now. In that case, you can go into Study Partner and schedule the session for “Right Now!”. This indicates you are right now in ICSpace and need help. All the other sensei and grasshoppers for that course will be notified, and hopefully a group will spontaneously form in a few minutes.
 
-Study Partner seems great in theory, but there is a significant barrier to adoption: students are naturally inhibited about asking for or offering help. This might be overcome through the use of well designed game mechanics.
+To encourage participation, Study Partner will feature a point system. Points will be based on the number of events that a student attends. Students will be able to see who currently has the most points on the leaderboard page. 
 
-Part of the design of Study Buddy should be some kind of point system, or “levels”, or some other game mechanic to reward students for participating.
+There will also be admins who monitor the site. Users can contact these admins if they suspect inappropriate behavior.
 
-In addition, you can solicit gift cards or other kinds of rewards from the ICS Department or UH Manoa to reward the “best” sensei and grasshoppers in a given week, month, or semester. The challenge is to design the point system so that students cannot “game” the system to obtain points without actually helping others. You also want to prevent a “hui” of students from simply pretending to work together to get the most points and then split the prize without actually helping each other.
-
-There must also be admins who monitor the site and who users can contact if they suspect inappropriate behavior.
-
-Important design goals for Study Buddy are:
+Important design goals for Study Partner are:
 
 To encourage use of ICSpace among ICS students
 To minimize risk of inappropriate encounters by requiring all meetings to occur in ICSpace.
 To encourage face-to-face interaction among ICS students.
-There are other mechanisms (Slack, Piazza) for asynchronous, online help and support. Study Buddy is designed to facilitate live, real-world help using ICSpace.
 
 ## Mockup page ideas
 
@@ -107,19 +102,20 @@ This page allows users to contact an admin if they feel others are engaging in i
 
 ## Use case ideas
 
-Whether or not the following bullet points list all pages or not, the completed use case should show an end-to-end scenario of using the system.
+New user goes to landing page, logs in, gets home page, sets up profile. 
 
-New user goes to landing page, logs in, gets home page, sets up profile. (How do they learn how system works?)
-Admin goes to landing page, logs in, gets home page, edits site.
-User goes to landing page, logs in, requests study sesh.
-User is notified of study sesh, responds. (Can they respond via text message?)
-User checks their status with respect to game mechanics.
+User goes to landing page, logs in, schedules study sesh.
+
+Admin goes to landing page, logs in, gets home page, views messages from users.
+
+User is notified of study sesh, responds. 
+
+User checks the leaderboard.
 
 ## Beyond the basics
 
 After implementing the basic functionality, here are ideas for more advanced features:
 
 Text message interface. See notifications, and reply to confirm attendance all through text message.
-Slack integration to facilitate notification and organization of meetings.
-A Slack Bot to suggest and help implement Study Buddy meetings.
+
 A rating system for meetings and sensei participation.
