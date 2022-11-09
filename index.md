@@ -61,13 +61,13 @@ The login page is used by returning users to log into their accounts.
 
 Users are sent to this page after logging in. It has options for scheduling a future study session or starting a session immediately. It also has options for profile editing, viewing the event calendar, viewing the leaderboard, and sending a message to the admins. 
 
-<img src="images/landing-user.png" alt="User Home Page">
+<img src="images/landing-user1.png" alt="User Home Page">
 
 ### Admin home page
 
 Admins are sent to this page after logging in. It has the same options as the user home page with the exception of the "contact admin" option, which is replaced by the "view reports" option. This option allows admins to view messages sent from users. 
 
-<img src="images/landing-admin.png" alt="Admin Home Page">
+<img src="images/landing-admin1.png" alt="Admin Home Page">
 
 ### User profile page
 
@@ -83,15 +83,9 @@ The calendar page shows all currently scheduled study sessions.
 
 ### Create Study Session page
 
-This page allows users to create a study session for a future time. That study session will then be added to the calendar page. 
+This page allows users to create a study session. That study session will then be added to the calendar page, and all members of the course will be notified. 
 
 <img src="images/create-session.png" alt="Create Study Session Page">
-
-### Create Quick Study Session page
-
-This page allows users to set up an event immediately. It will notify all members of the course. 
-
-<img src="images/create-session-rn.png" alt="Create Study Session Right Now Page">
 
 ### Join Study session page
 
