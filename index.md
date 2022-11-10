@@ -1,5 +1,7 @@
 # Study Partner
 
+## Team Member Introduction
+
 ## Overview
 
 *The problem:* ICS students often spend more time than they need on their homework and don’t learn the material as effectively as they could, because they study alone and do not leverage the power of face-to-face study groups with peer mentors.
@@ -119,5 +121,3 @@ After implementing the basic functionality, here are ideas for more advanced fea
 Text message interface. See notifications, and reply to confirm attendance all through text message.
 
 A rating system for meetings and sensei participation.
-
-## Team Member Introduction
