@@ -119,3 +119,5 @@ After implementing the basic functionality, here are ideas for more advanced fea
 Text message interface. See notifications, and reply to confirm attendance all through text message.
 
 A rating system for meetings and sensei participation.
+
+## Team Member Introduction
