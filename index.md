@@ -10,7 +10,7 @@
 
 ## Meetings
 
-In person meetings will be held on Tuesdays and/or Thursdays after ICS 314 class. These meetings will be held in Hamilton library. Online meetings will be held when necessary. 
+In person meetings will be held on Tuesdays and/or Thursdays after ICS 314 class. These meetings will be held in Hamilton library. Online meetings will be held on Saturday or additional ones when necessary. 
 
 ## Overview
 
