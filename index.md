@@ -2,7 +2,7 @@
 
 ## Team Member Introduction
 
-Zian Zeng: I am studying for a B.S. in Computer Science (Data Science Track) in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.
+- Zian Zeng: I am studying for a B.S. in Computer Science (Data Science Track) in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.
 
 ## Overview
 
