@@ -4,6 +4,7 @@
 
 - Zian Zeng: I am studying for a B.S. in Computer Science (Data Science Track) in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.
 - Jingyi He: I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2025.
+- Colby Kagamida: I am studying for a B.S. in Computer Engineering at the Department of Electrical and Computer Engineering at the University of Hawaii at Manoa. I expect to graduate in Spring 2023.
 
 ## Overview
 
@@ -21,9 +22,9 @@ There is an online calendar that shows all of the study sessions and who is atte
 
 There are two styles of use for Study Partner:
 
-You want to plan a group study session for later in the day or some subsequent day. In that case, you schedule the time period for sometime in the future.
+1. You want to plan a group study session for later in the day or some subsequent day. In that case, you schedule the time period for sometime in the future.
 
-You are having a problem right now. In that case, you can go into Study Partner and schedule the session for “Right Now!”. This indicates you are right now in ICSpace and need help. All the other sensei and grasshoppers for that course will be notified, and hopefully a group will spontaneously form in a few minutes.
+2. You are having a problem right now. In that case, you can go into Study Partner and schedule the session for “Right Now!”. This indicates you are right now in ICSpace and need help. All the other sensei and grasshoppers for that course will be notified, and hopefully a group will spontaneously form in a few minutes.
 
 To encourage participation, Study Partner will feature a point system. Points will be based on the number of events that a student attends. Students will be able to see who currently has the most points on the leaderboard page. 
 
