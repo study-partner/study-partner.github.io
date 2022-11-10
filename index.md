@@ -8,6 +8,10 @@
 - Feiyi Chen: I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.
 - James Grande: I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in 2024.
 
+## Meetings
+
+In person meetings will be held on Tuesdays and/or Thursdays after ICS 314 class. These meetings will be held in Hamilton library. Online meetings will be held when necessary. 
+
 ## Overview
 
 *The problem:* ICS students often spend more time than they need on their homework and don’t learn the material as effectively as they could, because they study alone and do not leverage the power of face-to-face study groups with peer mentors.
