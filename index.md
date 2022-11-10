@@ -6,6 +6,7 @@
 - Jingyi He: I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2025.
 - Colby Kagamida: I am studying for a B.S. in Computer Engineering at the Department of Electrical and Computer Engineering at the University of Hawaii at Manoa. I expect to graduate in Spring 2023.
 - Feiyi Chen: I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.
+- James Grande: I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in 2024.
 
 ## Overview
 
