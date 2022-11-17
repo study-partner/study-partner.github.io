@@ -1,13 +1,13 @@
 # Study Partner
-[Study-Partner Code Repositories](https://github.com/study-partner/study-partner)
+- [Study-Partner Code Repositories](https://github.com/study-partner/study-partner)
 <br/>
-[Team Contract](https://docs.google.com/document/d/12LxKhkw1Pm1xC4pM0Jf1obD1x-AB10m1somsgEHzGBM/edit?usp=sharing)
+- [Team Contract](https://docs.google.com/document/d/12LxKhkw1Pm1xC4pM0Jf1obD1x-AB10m1somsgEHzGBM/edit?usp=sharing)
 <br/>
-[Deployment](http://164.90.156.58/): http://164.90.156.58/
+- [Deployment](http://164.90.156.58/): http://164.90.156.58/
 <br/>
-[M1 Project page](https://github.com/orgs/study-partner/projects/1)
+- [M1 Project page](https://github.com/orgs/study-partner/projects/1)
 <br/>
-[M2 Project page](https://github.com/orgs/study-partner/projects/2)
+- [M2 Project page](https://github.com/orgs/study-partner/projects/2)
 
 ## Team Member Introduction
 
