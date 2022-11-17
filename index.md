@@ -55,37 +55,37 @@ Some possible mockup pages include:
 
 The landing page is what users see when they first visit the site. 
 
-<img src="images/landing.png" alt="Landing Page">
+<img src="images/M1/landing.png" alt="Landing Page">
 
 ### Register page
 
 The register page allows new users to sign up for Study Partner. 
 
-<img src="images/register.png" alt="Register Page">
+<img src="images/M1/register.png" alt="Register Page">
 
 ### Login page
 
 The login page is used by returning users to log into their accounts. 
 
-<img src="images/login.png" alt="Login Page">
+<img src="images/M1/login.png" alt="Login Page">
 
 ### User home page
 
 Users are sent to this page after logging in. It has options for scheduling a future study session or starting a session immediately. It also has options for profile editing, viewing the event calendar, viewing the leaderboard, and sending a message to the admins. 
 
-<img src="images/landing-user1.png" alt="User Home Page">
+<img src="images/M1/userhome.png" alt="User Home Page">
 
 ### Admin home page
 
 Admins are sent to this page after logging in. It has the same options as the user home page with the exception of the "contact admin" option, which is replaced by the "view reports" option. This option allows admins to view messages sent from users. 
 
-<img src="images/landing-admin1.png" alt="Admin Home Page">
+<img src="images/M1/adminhome.png" alt="Admin Home Page">
 
 ### User profile page
 
 New users are sent to this page to set up their profile. This page is also excessible to returning users from the home page. 
 
-<img src="images/profile.png" alt="User Profile Page">
+<img src="images/M1/userprofile.png" alt="User Profile Page">
 
 ### Calendar page
 
