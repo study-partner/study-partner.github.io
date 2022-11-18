@@ -40,7 +40,9 @@ To encourage face-to-face interaction among ICS students.
 
 ## Deployment
 
-[Deployment:](http://164.90.156.58/) The Study Partner has been deployed on the Digital Ocean
+The Study Partner has been deployed on the Digital Ocean
+
+Deployed application can be found at [http://164.90.156.58/](http://164.90.156.58/)
 
 ## Mockup page ideas
 
