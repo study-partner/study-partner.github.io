@@ -40,9 +40,9 @@ To encourage face-to-face interaction among ICS students.
 
 ## Deployment
 
-The Study Partner has been deployed on the Digital Ocean
+The Study Partner has been deployed on the Digital Ocean.
 
-Deployed application can be found at [http://164.90.156.58/](http://164.90.156.58/)
+Deployed application can be found at [http://164.90.156.58/](http://164.90.156.58/).
 
 ## Mockup page ideas
 
@@ -142,7 +142,7 @@ A rating system for meetings and sensei participation.
   - Deployment.
 * [Milestone 2](https://github.com/orgs/study-partner/projects/2)
   - Page Improvement.
-  - Database update and creation
+  - Database update and creation.
   
 ## Team Member Introduction
 
