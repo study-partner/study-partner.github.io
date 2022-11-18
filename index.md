@@ -1,5 +1,7 @@
 # Study Partner
 
+An application to find study partner at UH Community
+
 ## Table of contents
 * [Study-Partner Code Repositories](https://github.com/study-partner/study-partner)
 * [Overview](#overview)
