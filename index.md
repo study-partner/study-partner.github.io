@@ -1,21 +1,12 @@
 # Study Partner
-*  [Study-Partner Code Repositories](https://github.com/study-partner/study-partner)
-*  [Team Contract](https://docs.google.com/document/d/12LxKhkw1Pm1xC4pM0Jf1obD1x-AB10m1somsgEHzGBM/edit?usp=sharing)
-*  [Deployment](http://164.90.156.58/): http://164.90.156.58/
-*  [M1 Project page](https://github.com/orgs/study-partner/projects/1)
-*  [M2 Project page](https://github.com/orgs/study-partner/projects/2)
 
-## Team Member Introduction
-
-- Zian Zeng: I am studying for a B.S. in Computer Science (Data Science Track) in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.
-- Jingyi He: I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2025.
-- Colby Kagamida: I am studying for a B.S. in Computer Engineering at the Department of Electrical and Computer Engineering at the University of Hawaii at Manoa. I expect to graduate in Spring 2023.
-- Feiyi Chen: I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.
-- James Grande: I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in 2024.
-
-## Meetings
-
-In person meetings will be held on Tuesdays and/or Thursdays after ICS 314 class. These meetings will be held in Hamilton library. Online meetings will be held on Saturday or additional ones when necessary. 
+## Table of contents
+* [Study-Partner Code Repositories](https://github.com/study-partner/study-partner)
+* [Overview](#overview)
+* [Approach](#approach)
+* [Deployment](#deployment)
+* [Development History](#development-history)
+* [Team](#team-member-introduction)
 
 ## Overview
 
@@ -46,6 +37,10 @@ Important design goals for Study Partner are:
 To encourage use of ICSpace among ICS students
 To minimize risk of inappropriate encounters by requiring all meetings to occur in ICSpace.
 To encourage face-to-face interaction among ICS students.
+
+## Deployment
+
+[Deployment:](http://164.90.156.58/) The Study Partner has been deployed on the Digital Ocean
 
 ## Mockup page ideas
 
@@ -136,3 +131,22 @@ After implementing the basic functionality, here are ideas for more advanced fea
 Text message interface. See notifications, and reply to confirm attendance all through text message.
 
 A rating system for meetings and sensei participation.
+
+## Development History
+
+* [Milestone 1](https://github.com/orgs/study-partner/projects/1)
+  - Basic Mockup development.
+  - Page color adjustment.
+  - Deployment.
+* [Milestone 2](https://github.com/orgs/study-partner/projects/2)
+  - Page Improvement.
+  - Database update and creation
+  
+## Team Member Introduction
+
+- [Zian Zeng:](https://zianzenguh.github.io/) I am studying for a B.S. in Computer Science (Data Science Track) in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.
+- [Jingyi He:](https://jing2003.github.io/) I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2025.
+- [Colby Kagamida:](https://colbykag.github.io/) I am studying for a B.S. in Computer Engineering at the Department of Electrical and Computer Engineering at the University of Hawaii at Manoa. I expect to graduate in Spring 2023.
+- [Feiyi Chen:](https://feiyichen01.github.io/) I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.
+- [James Grande:](https://grandejames.github.io/) I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in 2024. 
+- [Team Contract](https://docs.google.com/document/d/12LxKhkw1Pm1xC4pM0Jf1obD1x-AB10m1somsgEHzGBM/edit?usp=sharing)
