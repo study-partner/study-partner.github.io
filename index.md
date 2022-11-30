@@ -186,6 +186,7 @@ Deployed application can be found at [http://164.90.156.58/](http://164.90.156.5
 * [Milestone 2](https://github.com/orgs/study-partner/projects/2)
   - Page Improvement.
   - Database update and creation.
+* [Milestone 3](https://github.com/orgs/study-partner/projects/3)
   
 ## Team Member Introduction
 
