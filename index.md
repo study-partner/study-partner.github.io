@@ -83,19 +83,19 @@ New users are sent to this page to set up their profile. This page is also exces
 
 The calendar page shows all currently scheduled study sessions. 
 
-<img src="images/calendar.png" alt="Calendar Page">
+<img src="images/M1/calendar.png" alt="Calendar Page">
 
 ### Create Study Session page
 
 This page allows users to create a study session. That study session will then be added to the calendar page, and all members of the course will be notified. 
 
-<img src="images/create-session.png" alt="Create Study Session Page">
+<img src="images/M1/createsession.png" alt="Create Study Session Page">
 
 ### Join Study session page
 
 Clicking on one of the calendar events will bring users to this page. Users are able to sign up for existing study sessions from this page. Users will also be able to see who is currently planning to attend a session. 
 
-<img src="images/join-session.png" alt="Join Study Session Page">
+<img src="images/M1/joinsession.png" alt="Join Study Session Page">
 
 ### Leaderboard page
 
@@ -107,7 +107,13 @@ The leaderboard page allows users to see which users have accumulated the most p
 
 This page allows users to contact an admin if they feel others are engaging in inappropriate behavior. 
 
-<img src="images/contact-admin.png" alt="Contact Admin Page">
+<img src="images/M1/contactadmin.png" alt="Contact Admin Page">
+
+### View report page
+
+This page allows admin to view the reports from users. 
+
+<img src="images/M1/viewreport.png" alt="View Report Page">
 
 ### Use case ideas
 
@@ -137,9 +143,9 @@ This section provides information of interest to Meteor developers wishing to us
 
 First, [install Meteor](https://www.meteor.com/install).
 
-Second, visit the [Bowfolios application github page](https://github.com/bowfolios/bowfolios), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
+Second, visit the [Study-Partner application github page](https://github.com/study-partner/study-partner), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
 
-Third, cd into the bowfolios/app directory and install libraries with:
+Third, cd into the study-partner/app directory and install libraries with:
 
 ```
 $ meteor npm install
@@ -155,21 +161,124 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 ### Application Design
 
-Bowfolios is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
+Study-Partner is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/), [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/) and [bowfolios](https://bowfolios.github.io/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Study-Partner.
 
-### Data model
 
-As noted above, the Bowfolios data model consists of three "primary" collections (Projects, Profiles, and Interests), as well as three "join" Collections (ProfilesProjects, ProfilesInterests, and ProjectsInterests).  To understand this design choice, consider the situation where you want to specify the projects associated with a Profile.
+## Initialization
 
-Design choice #1: Provide a field in Profile collection called "Projects", and fill it with an array of project names. This choice works great when you want to display a Profile and indicate the Projects it's associated with.  But what if you want to go the other direction: display a Project and all of the Profiles associated with it?  Then you have to do a sequential search through all of the Profiles, then do a sequential search through that array field looking for a match.  That's computationally expensive and also just silly.
+The [config](https://github.com/study-partner/study-partner/tree/main/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/study-partner/study-partner/blob/main/config/settings.development.json).
 
-Design choice #2:  Provide a "join" collection where each document contains two fields: Profile name and Project name. Each entry indicates that there is a relationship between those two entities. Now, to find all the Projects associated with a Profile, just search this collection for all the documents that match the Profile, then extract the Project field. Going the other way is just as easy: to find all the Profiles associated with a Project, just search the collection for all documents matching the Project, then extract the Profile field.
+This file contains default definitions for Profiles, Sessions and the relationships between them. Consult the walkthrough video for more details.
 
-Bowfolios implements Design choice #2 to provide pair-wise relations between all three of its primary collections:
+The settings.development.json file contains a field called "loadAssetsFile". It is set to false, but if you change it to true, then the data in the file app/private/data.json will also be loaded.  The code to do this illustrates how to initialize a system when the initial data exceeds the size limitations for the settings file.
 
-![](images/data-model.png)
 
-The fields in boldface (Email for Profiles, and Name for Projects and Interests) indicate that those fields must have unique values so that they can be used as a primary key for that collection. This constraint is enforced in the schema definition associated with that collection.
+### Quality Assurance
+
+#### ESLint
+
+Study-Partner includes a [.eslintrc](https://github.com/bowfolios/bowfolios/blob/main/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+
+```
+meteor npm run lint
+```
+
+Here is sample output indicating that no ESLint errors were detected:
+
+```
+$ meteor npm run lint
+
+> study-partner@ lint /Users/feiyichen/github/study-partner/study-partner/app
+> eslint --quiet --ext .jsx --ext .js ./imports ./tests
+
+$
+```
+
+ESLint should run without generating any errors.
+
+It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
+
+#### End to End Testing
+
+Study-Partner uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
+
+The study-partner end-to-end test code employs the page object model design pattern.  In the [study-partner tests/ directory](https://github.com/study-partner/study-partner/tree/main/app/tests), the file [tests.testcafe.js](https://github.com/study-partner/study-partner/blob/main/app/tests/tests.testcafe.js) contains the TestCafe test definitions. The remaining files in the directory contain "page object models" for the various pages in the system (i.e. Home, Landing, Courses, etc.) as well as one component (navbar). This organization makes the test code shorter, easier to understand, and easier to debug.
+
+To run the end-to-end tests in development mode, you must first start up a Study-Partner instance by invoking `meteor npm run start` in one console window.
+
+Then, in another console window, start up the end-to-end tests with:
+
+```
+meteor npm run testcafe
+```
+
+You will see browser windows appear and disappear as the tests run.  If the tests finish successfully, you should see the following in your second console window:
+
+```
+$ meteor npm run testcafe
+
+> study-partner@ testcafe /Users/feiyichen/github/study-partner/study-partner/app
+> testcafe chrome tests/*.testcafe.js
+
+ Running tests in:
+ - Chrome 86.0.4240.111 / macOS 10.15.7
+
+ study-partner localhost test with default db
+ ✓ Test that landing page shows up
+ ✓ Test that signin and signout work
+ ✓ Test that signup page, then logout works
+ ✓ Test that profiles page displays
+ ✓ Test that profile page displays and profile modification works
+ ✓ Test that calendar page works
+
+
+ 6 passed (40s)
+
+ $
+```
+
+You can also run the testcafe tests in "continuous integration mode".  This mode is appropriate when you want to run the tests using a continuous integration service like Jenkins, Semaphore, CircleCI, etc.  In this case, it is problematic to already have the server running in a separate console, and you cannot have the browser window appear and disappear.
+
+To run the testcafe tests in continuous integration mode, first ensure that study-partner is not running in any console.
+
+Then, invoke `meteor npm run testcafe-ci`.  You will not see any windows appear.  When the tests finish, the console should look like this:
+
+```
+$ meteor npm run testcafe-ci
+
+> study-partner@ testcafe-ci /Users/feiyichen/github/study-partner/study-partner/app
+> testcafe chrome:headless tests/*.testcafe.js -q --app "meteor npm run start"
+
+ Running tests in:
+ - Chrome 86.0.4240.111 / macOS 10.15.7
+
+ study-partner localhost test with default db
+ ✓ Test that landing page shows up
+ ✓ Test that signin and signout work
+ ✓ Test that signup page, then logout works
+ ✓ Test that profiles page displays
+ ✓ Test that profile page displays and profile modification works
+ ✓ Test that calendar page works
+
+
+ 6 passed (56s)
+
+$
+```
+
+All the tests pass, but the first test is marked as "unstable". At the time of writing, TestCafe fails the first time it tries to run a test in this mode, but subsequent attempts run normally. To prevent the test run from failing due to this problem with TestCafe, we enable [testcafe quarantine mode](https://devexpress.github.io/testcafe/documentation/guides/basic-guides/run-tests.html#quarantine-mode).
+
+The only impact of quarantine mode should be that the first test is marked as "unstable".
+
+## From mockup to production
+
+Study-Partner is meant to illustrate the use of Meteor for developing an initial proof-of-concept prototype.  For a production application, several additional security-related changes must be implemented:
+
+* Use of email-based password specification for users, and/or use of an alternative authentication mechanism.
+* Use of https so that passwords are sent in encrypted format.
+* Removal of the insecure package, and the addition of Meteor Methods to replace client-side DB updates.
+
+(Note that these changes do not need to be implemented for ICS 314, although they are relatively straightforward to accomplish.)
 
 ## Deployment
 
@@ -187,6 +296,9 @@ Deployed application can be found at [http://164.90.156.58/](http://164.90.156.5
   - Page Improvement.
   - Database update and creation.
 * [Milestone 3](https://github.com/orgs/study-partner/projects/3)
+  - Add real data to the system
+  - Find at least five UH community members (not from ICS 314) to try out your system and provide feedback.
+  - Implement acceptance testing
   
 ## Team Member Introduction
 
