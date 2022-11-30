@@ -38,15 +38,9 @@ To encourage use of ICSpace among ICS students
 To minimize risk of inappropriate encounters by requiring all meetings to occur in ICSpace.
 To encourage face-to-face interaction among ICS students.
 
-## Deployment
+## User Guide
 
-The Study Partner has been deployed on the Digital Ocean.
-
-Deployed application can be found at [http://164.90.156.58/](http://164.90.156.58/).
-
-## Mockup page ideas
-
-Some possible mockup pages include:
+This section provides a walkthrough of the Study-Partner user interface and its capabilities.
 
 ### Landing page
 
@@ -133,6 +127,54 @@ After implementing the basic functionality, here are ideas for more advanced fea
 Text message interface. See notifications, and reply to confirm attendance all through text message.
 
 A rating system for meetings and sensei participation.
+
+## Developer Guide
+
+This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
+
+### Installation
+
+First, [install Meteor](https://www.meteor.com/install).
+
+Second, visit the [Bowfolios application github page](https://github.com/bowfolios/bowfolios), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
+
+Third, cd into the bowfolios/app directory and install libraries with:
+
+```
+$ meteor npm install
+```
+
+Fourth, run the system with:
+
+```
+$ meteor npm run start
+```
+
+If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
+
+### Application Design
+
+Bowfolios is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
+
+### Data model
+
+As noted above, the Bowfolios data model consists of three "primary" collections (Projects, Profiles, and Interests), as well as three "join" Collections (ProfilesProjects, ProfilesInterests, and ProjectsInterests).  To understand this design choice, consider the situation where you want to specify the projects associated with a Profile.
+
+Design choice #1: Provide a field in Profile collection called "Projects", and fill it with an array of project names. This choice works great when you want to display a Profile and indicate the Projects it's associated with.  But what if you want to go the other direction: display a Project and all of the Profiles associated with it?  Then you have to do a sequential search through all of the Profiles, then do a sequential search through that array field looking for a match.  That's computationally expensive and also just silly.
+
+Design choice #2:  Provide a "join" collection where each document contains two fields: Profile name and Project name. Each entry indicates that there is a relationship between those two entities. Now, to find all the Projects associated with a Profile, just search this collection for all the documents that match the Profile, then extract the Project field. Going the other way is just as easy: to find all the Profiles associated with a Project, just search the collection for all documents matching the Project, then extract the Profile field.
+
+Bowfolios implements Design choice #2 to provide pair-wise relations between all three of its primary collections:
+
+![](images/data-model.png)
+
+The fields in boldface (Email for Profiles, and Name for Projects and Interests) indicate that those fields must have unique values so that they can be used as a primary key for that collection. This constraint is enforced in the schema definition associated with that collection.
+
+## Deployment
+
+The Study Partner has been deployed on the Digital Ocean.
+
+Deployed application can be found at [http://164.90.156.58/](http://164.90.156.58/).
 
 ## Development History
 
