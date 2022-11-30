@@ -3,7 +3,8 @@
 ## Table of contents
 * [Study-Partner Code Repositories](https://github.com/study-partner/study-partner)
 * [Overview](#overview)
-* [Approach](#approach)
+* [User Guide](#user-guide)
+* [Developer Guide](#developer-guide)
 * [Deployment](#deployment)
 * [Development History](#development-history)
 * [Team](#team-member-introduction)
@@ -14,7 +15,7 @@
 
 *The solution:* Study Partner is an application for UHM ICS students to self-organize face-to-face study groups around a course and/or specific homework or project topic.
 
-## Approach
+### Approach
 
 To use Study Partner, a student must login and set up their profile. The profile enables each student to list courses they have taken and for which they are willing to attempt to provide help (sensei), and courses they are currently taking and for which they might need help (grasshopper). Thus, all students are sensei in some courses and grasshoppers in other courses. Each student must also provide a head shot so that they can be visually identified.
 
@@ -108,7 +109,7 @@ This page allows users to contact an admin if they feel others are engaging in i
 
 <img src="images/contact-admin.png" alt="Contact Admin Page">
 
-## Use case ideas
+### Use case ideas
 
 New user goes to landing page, logs in, gets home page, sets up profile. 
 
@@ -120,7 +121,7 @@ User is notified of study sesh, responds.
 
 User checks the leaderboard.
 
-## Beyond the basics
+### Beyond the basics
 
 After implementing the basic functionality, here are ideas for more advanced features:
 
