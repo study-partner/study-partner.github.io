@@ -292,6 +292,15 @@ Study-Partner is meant to illustrate the use of Meteor for developing an initial
 
 (Note that these changes do not need to be implemented for ICS 314, although they are relatively straightforward to accomplish.)
 
+## Continuous Integration
+
+![ci-badge](https://github.com/study-partner/study-partner/workflows/ci-bowfolios/badge.svg)
+
+Study-Partner uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) to automatically run ESLint and TestCafe each time a commit is made to the default branch.  You can see the results of all recent "workflows" at [https://github.com/study-partner/study-partner/actions](https://github.com/study-partner/study-partner/actions).
+
+The workflow definition file is quite simple and is located at
+[.github/workflows/ci.yml](https://github.com/study-partner/study-partner/blob/main/.github/workflows/ci.yml).
+
 ## Deployment
 
 The Study Partner has been deployed on the Digital Ocean.
