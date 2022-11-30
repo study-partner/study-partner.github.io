@@ -234,11 +234,13 @@ $ meteor npm run testcafe
  ✓ Test that signin and signout work
  ✓ Test that signup page, then logout works
  ✓ Test that profiles page displays
- ✓ Test that profile page displays and profile modification works
+ ✓ Test that profile page display and profile modification works
  ✓ Test that calendar page works
+ ✓ Test that contact admin page works
+ ✓ Test that admin view reports works
 
 
- 6 passed (40s)
+ 8 passed (3m 13s)
 
  $
 ```
@@ -263,11 +265,13 @@ $ meteor npm run testcafe-ci
  ✓ Test that signin and signout work
  ✓ Test that signup page, then logout works
  ✓ Test that profiles page displays
- ✓ Test that profile page displays and profile modification works
+ ✓ Test that profile page display and profile modification works
  ✓ Test that calendar page works
+ ✓ Test that contact admin page works
+ ✓ Test that admin view reports works
 
 
- 6 passed (56s)
+ 8 passed (3m 13s)
 
 $
 ```
