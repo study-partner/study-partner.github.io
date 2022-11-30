@@ -238,9 +238,10 @@ $ meteor npm run testcafe
  ✓ Test that calendar page works
  ✓ Test that contact admin page works
  ✓ Test that admin view reports works
+ ✓ Test that the home page displays
 
 
- 8 passed (3m 13s)
+ 9 passed (1m 04s)
 
  $
 ```
@@ -269,9 +270,10 @@ $ meteor npm run testcafe-ci
  ✓ Test that calendar page works
  ✓ Test that contact admin page works
  ✓ Test that admin view reports works
+ ✓ Test that the home page displays
 
 
- 8 passed (3m 13s)
+ 9 passed (1m 04s)
 
 $
 ```
