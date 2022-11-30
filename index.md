@@ -284,7 +284,7 @@ Study-Partner is meant to illustrate the use of Meteor for developing an initial
 
 The Study Partner has been deployed on the Digital Ocean.
 
-Deployed application can be found at [http://164.90.156.58/](http://164.90.156.58/).
+Deployed application can be found at [https://study-partner.xyz/](https://study-partner.xyz/).
 
 ## Development History
 
