@@ -77,7 +77,13 @@ Admins are sent to this page after logging in. It has the same options as the us
 
 New users are sent to this page to set up their profile. This page is also excessible to returning users from the home page. 
 
+Create Profile.
+
 <img src="images/M1/profile.png" alt="User Profile Page">
+
+Show Profiles.
+
+<img src="images/M1/showprofile.png" alt="Profiles Page">
 
 ### Calendar page
 
