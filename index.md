@@ -239,9 +239,12 @@ $ meteor npm run testcafe
  ✓ Test that contact admin page works
  ✓ Test that admin view reports works
  ✓ Test that the home page displays
+ ✓ Test that leaderboard works
+ ✓ Test that join session page displays
+ ✓ Test that create session page works
 
 
- 9 passed (1m 04s)
+ 12 passed (2m 52s)
 
  $
 ```
@@ -271,9 +274,12 @@ $ meteor npm run testcafe-ci
  ✓ Test that contact admin page works
  ✓ Test that admin view reports works
  ✓ Test that the home page displays
+ ✓ Test that leaderboard works
+ ✓ Test that join session page displays
+ ✓ Test that create session page works
 
 
- 9 passed (1m 04s)
+ 12 passed (2m 52s)
 
 $
 ```
@@ -294,7 +300,7 @@ Study-Partner is meant to illustrate the use of Meteor for developing an initial
 
 ## Continuous Integration
 
-![ci-badge](https://github.com/study-partner/study-partner/workflows/ci-bowfolios/badge.svg)
+![ci-badge](https://github.com/study-partner/study-partner/workflows/ci-study-partner/badge.svg)
 
 Study-Partner uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) to automatically run ESLint and TestCafe each time a commit is made to the default branch.  You can see the results of all recent "workflows" at [https://github.com/study-partner/study-partner/actions](https://github.com/study-partner/study-partner/actions).
 
