@@ -27,9 +27,9 @@ There are two styles of use for Study Partner:
 
 1. You want to plan a group study session for later in the day or some subsequent day. In that case, you schedule the time period for sometime in the future.
 
-2. You are having a problem right now. In that case, you can go into Study Partner and schedule the session for “Right Now!”. This indicates you are right now in ICSpace and need help. All the other sensei and grasshoppers for that course will be notified, and hopefully a group will spontaneously form in a few minutes.
+2. You want to join a study session. In that case, you can take a look at 'Join Session' page to view all the available study sessions.
 
-To encourage participation, Study Partner will feature a point system. Points will be based on the number of events that a student attends. Students will be able to see who currently has the most points on the leaderboard page. 
+To encourage participation, Study Partner will feature a point system. Points will be based on the number of events that a student attends. Students will be able to see the top 3 students who currently has the most points on the 'Leaderboard' page. Students are also able to view each others points on the 'All Profiles' page.
 
 There will also be admins who monitor the site. Users can contact these admins if they suspect inappropriate behavior.
 
