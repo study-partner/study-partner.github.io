@@ -7,6 +7,7 @@
 * [Developer Guide](#developer-guide)
 * [Deployment](#deployment)
 * [Development History](#development-history)
+* [Community Feedback](#community-feedback)
 * [Team](#team-member-introduction)
 
 ## Overview
