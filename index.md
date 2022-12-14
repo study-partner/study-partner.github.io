@@ -327,14 +327,14 @@ Deployed application can be found at [https://study-partner.xyz/](https://study-
   - Implement acceptance testing
   
 ## Community Feedback
-
-Ethan M. 
-* What do you like about this website/project?
-  - I liked that you are able to create your own profile for the site and are able to see what someone needs help with and what people know. I like this idea of planning study sessions as well, it makes it easier to organize these study sessions. 
-* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
-  - I think something I would like this project to have is to maybe have a way for the people to message each other. Ex. a direct message system, so you can communicate with other people directly as well. 
-* Any other suggestions or comments?
-  - None. 
+ 
+>* What do you like about this website/project?
+>  - I liked that you are able to create your own profile for the site and are able to see what someone needs help with and what people know. I like this idea of >planning study sessions as well, it makes it easier to organize these study sessions. 
+>* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
+>  - I think something I would like this project to have is to maybe have a way for the people to message each other. Ex. a direct message system, so you can >communicate with other people directly as well. 
+>* Any other suggestions or comments?
+>  - None. 
+> -- <cite>Ethan M.</cite>
 
 Bing Y. 
 * What do you like about this website/project?
