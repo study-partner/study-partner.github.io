@@ -64,51 +64,51 @@ The login page is used by returning users to log into their accounts.
 
 ### User home page
 
-Users are sent to this page after logging in. It has options for scheduling a future study session or starting a session immediately. It also has options for profile editing, viewing the event calendar, viewing the leaderboard, and sending a message to the admins. 
+Users are sent to this page after logging in. It has options for scheduling a study session or joining a study session. It also has options for profile editing, viewing the event calendar, viewing the leaderboard, viewing the profiles for other users, and sending a message to the admins. 
 
-<img src="images/M1/userhome.png" alt="User Home Page">
+<img src="images/M3/Homepage.png" alt="User Home Page">
 
 ### Admin home page
 
-Admins are sent to this page after logging in. It has the same options as the user home page with the exception of the "contact admin" option, which is replaced by the "view reports" option. This option allows admins to view messages sent from users. 
+Admins are sent to this page after logging in. It has the same options as the user home page with the exception of the "contact admin" option, which is replaced by the "view report" option. This option allows admins to view messages sent from users. 
 
-<img src="images/M1/adminhome.png" alt="Admin Home Page">
+<img src="images/M3/Homepage-Admin.png" alt="Admin Home Page">
 
-### User profile page
+### User Profile page
 
-New users are sent to this page to set up their profile. This page is also excessible to returning users from the home page. 
+New users can go to this page to set up their profile. This page is also excessible to returning users who want to make changes to their profile. 
 
-Create Profile.
+<img src="images/M3/YourProfile.png" alt="User Profile Page">
 
-<img src="images/M1/profile.png" alt="User Profile Page">
+### All Profiles page
 
-Show Profiles.
+Users can see the profiles of all other users on this page. 
 
-<img src="images/M1/showprofile.png" alt="Profiles Page">
+<img src="images/M3/Profiles.png" alt="Profiles Page">
 
 ### Calendar page
 
-The calendar page shows all currently scheduled study sessions. 
+The calendar page shows all currently scheduled study sessions that a user has joined. 
 
 <img src="images/M1/calendar.png" alt="Calendar Page">
 
 ### Create Study Session page
 
-This page allows users to create a study session. That study session will then be added to the calendar page, and all members of the course will be notified. 
+This page allows users to create a study session. That study session will then be available for other users to join. 
 
-<img src="images/M1/createsession.png" alt="Create Study Session Page">
+<img src="images/M3/CreateSession.png" alt="Create Study Session Page">
 
 ### Join Study session page
 
-Clicking on one of the calendar events will bring users to this page. Users are able to sign up for existing study sessions from this page. Users will also be able to see who is currently planning to attend a session. 
+This page shows all study sessions that are available to join. To join a session, a user hits the "join" button for the session that they want to join.  
 
-<img src="images/M1/joinsession.png" alt="Join Study Session Page">
+<img src="images/M3/JoinSession.png" alt="Join Study Session Page">
 
 ### Leaderboard page
 
-The leaderboard page allows users to see which users have accumulated the most points. 
+The leaderboard page allows users to see which users have accumulated the most points. Points are given to users when they create and join study sessions. 
 
-<img src="images/leaderboard.png" alt="Leaderboard Page">
+<img src="images/M3/Leaderboard.png" alt="Leaderboard Page">
 
 ### Contact admin page
 
@@ -118,7 +118,7 @@ This page allows users to contact an admin if they feel others are engaging in i
 
 ### View report page
 
-This page allows admin to view the reports from users. 
+This page allows an admin to view the reports from users. 
 
 <img src="images/M1/viewreport.png" alt="View Report Page">
 
