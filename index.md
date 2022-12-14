@@ -327,46 +327,45 @@ Deployed application can be found at [https://study-partner.xyz/](https://study-
   - Implement acceptance testing
   
 ## Community Feedback
- 
+Ethan M.
 >* What do you like about this website/project?
 >  - I liked that you are able to create your own profile for the site and are able to see what someone needs help with and what people know. I like this idea of >planning study sessions as well, it makes it easier to organize these study sessions. 
 >* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
 >  - I think something I would like this project to have is to maybe have a way for the people to message each other. Ex. a direct message system, so you can >communicate with other people directly as well. 
 >* Any other suggestions or comments?
 >  - None. 
-> -- <cite>Ethan M.</cite>
 
 Bing Y. 
-* What do you like about this website/project?
-  - Easy to understand
-* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
-  - Change Password, forget password, and find 
-* Any other suggestions or comments?
-  - Add something more and I like your minimalist style
+>* What do you like about this website/project?
+>  - Easy to understand
+>* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
+>  - Change Password, forget password, and find 
+>* Any other suggestions or comments?
+>  - Add something more and I like your minimalist style
 
 Meiyi W. 
-* What do you like about this website/project?
-  - Looks good
-* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
-  - Web design can look better.
-* Any other suggestions or comments?
-  - No 
+>* What do you like about this website/project?
+>  - Looks good
+>* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
+>  - Web design can look better.
+>* Any other suggestions or comments?
+>  - No 
 
 Addison
-* What do you like about this website/project?
-  - I like how you can easily join or create a session and even sign up how it takes you around easily
-* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
-  - I do not know
-* Any other suggestions or comments?
-  - No it is great
+>* What do you like about this website/project?
+>  - I like how you can easily join or create a session and even sign up how it takes you around easily
+>* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
+>  - I do not know
+>* Any other suggestions or comments?
+>  - No it is great
 
 Haojiang W. 
-* What do you like about this website/project?
-  - Everything is fantastic. I like that I can create a profile for myself so that I can see what other people know and what they need help with. To keep things organized, I believe it's a good idea to arrange study sessions in advance. 
-* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
-  - For the current stage, the function is usable, I don't think adding additional functions can improve the experience
-* Any other suggestions or comments?
-  - So far so good
+>* What do you like about this website/project?
+>  - Everything is fantastic. I like that I can create a profile for myself so that I can see what other people know and what they need help with. To keep things >organized, I believe it's a good idea to arrange study sessions in advance. 
+>* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
+>  - For the current stage, the function is usable, I don't think adding additional functions can improve the experience
+>* Any other suggestions or comments?
+>  - So far so good
 
 ## Team Member Introduction
 
