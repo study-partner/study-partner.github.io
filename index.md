@@ -124,15 +124,15 @@ This page allows an admin to view the reports from users.
 
 ### Use case ideas
 
-New user goes to landing page, logs in, gets home page, sets up profile. 
+New user goes to landing page, sign in, gets home page, sets up profile, go to join session page to schedule study sessions, go to calendar page to see user's own schedule of all sessions joined.
 
-User goes to landing page, logs in, schedules study sesh.
+User goes to landing page, logs in, go to join session page to schedule study sessions, go to calendar page to see user's own schedule of all sessions joined.
+
+User can go to all profiles to check who are they meeting with in the session.
+
+User checks the leaderboard for motivation.
 
 Admin goes to landing page, logs in, gets home page, views messages from users.
-
-User is notified of study sesh, responds. 
-
-User checks the leaderboard.
 
 ### Beyond the basics
 
