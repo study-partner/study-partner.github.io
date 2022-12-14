@@ -90,7 +90,7 @@ Users can see the profiles of all other users on this page.
 
 The calendar page shows all currently scheduled study sessions that a user has joined. 
 
-<img src="images/M1/calendar.png" alt="Calendar Page">
+<img src="images/M3/Calendar.png" alt="Calendar Page">
 
 ### Create Study Session page
 
@@ -114,7 +114,7 @@ The leaderboard page allows users to see which users have accumulated the most p
 
 This page allows users to contact an admin if they feel others are engaging in inappropriate behavior. 
 
-<img src="images/M1/contactadmin.png" alt="Contact Admin Page">
+<img src="images/M3/ContactAdmin.png" alt="Contact Admin Page">
 
 ### View report page
 
