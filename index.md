@@ -337,35 +337,35 @@ Ethan M.
 
 Bing Y. 
 >* What do you like about this website/project?
->  - Easy to understand
+>>  - Easy to understand
 >* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
->  - Change Password, forget password, and find 
+>>  - Change Password, forget password, and find 
 >* Any other suggestions or comments?
->  - Add something more and I like your minimalist style
+>>  - Add something more and I like your minimalist style
 
 Meiyi W. 
 >* What do you like about this website/project?
->  - Looks good
+>>  - Looks good
 >* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
->  - Web design can look better.
+>>  - Web design can look better.
 >* Any other suggestions or comments?
->  - No 
+>>  - No 
 
 Addison
 >* What do you like about this website/project?
->  - I like how you can easily join or create a session and even sign up how it takes you around easily
+>>  - I like how you can easily join or create a session and even sign up how it takes you around easily
 >* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
->  - I do not know
+>>  - I do not know
 >* Any other suggestions or comments?
->  - No it is great
+>>  - No it is great
 
 Haojiang W. 
 >* What do you like about this website/project?
->  - Everything is fantastic. I like that I can create a profile for myself so that I can see what other people know and what they need help with. To keep things >organized, I believe it's a good idea to arrange study sessions in advance. 
+>>  - Everything is fantastic. I like that I can create a profile for myself so that I can see what other people know and what they need help with. To keep things >organized, I believe it's a good idea to arrange study sessions in advance. 
 >* What is something (eg. features, designs) that you would like this project to have? How can we make this website better?
->  - For the current stage, the function is usable, I don't think adding additional functions can improve the experience
+>>  - For the current stage, the function is usable, I don't think adding additional functions can improve the experience
 >* Any other suggestions or comments?
->  - So far so good
+>>  - So far so good
 
 ## Team Member Introduction
 
