@@ -120,7 +120,7 @@ This page allows users to contact an admin if they feel others are engaging in i
 
 This page allows an admin to view the reports from users. 
 
-<img src="images/M1/viewreport.png" alt="View Report Page">
+<img src="images/M3/ViewReport.png" alt="View Report Page">
 
 ### Use case ideas
 
