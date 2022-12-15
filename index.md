@@ -36,9 +36,9 @@ There will also be admins who monitor the site. Users can contact these admins i
 
 Important design goals for Study Partner are:
 
-To encourage use of ICSpace among ICS students
-To minimize risk of inappropriate encounters by requiring all meetings to occur in ICSpace.
-To encourage face-to-face interaction among ICS students.
+* To encourage use of ICSpace among ICS students
+* To minimize risk of inappropriate encounters by requiring all meetings to occur in ICSpace.
+* To encourage face-to-face interaction among ICS students.
 
 ## User Guide
 
