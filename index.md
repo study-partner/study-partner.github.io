@@ -22,7 +22,7 @@ To use Study Partner, a student must login and set up their profile. The profile
 
 Another section of the site lists all of the ICS courses. Within each course, it is possible to see the grasshoppers and the senseis. A grasshopper can propose a study session around a topic currently being covered in their course (for example, “Write my essay on configuration management”, and a time to meet within ICSpace (i.e. 8:30-9:30pm tonight)). This proposal generates a notification to all of the grasshoppers and senseis, and they can respond by saying they intend to come at some point during the time period.
 
-There is an online calendar that shows all of the study sessions and who is attending.
+There is an online calendar that shows all of the study sessions that the user attended.
 
 There are two styles of use for Study Partner:
 
